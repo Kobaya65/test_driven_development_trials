@@ -2,8 +2,7 @@
 from primes import is_prime
 
 def test_prime_low_number() -> None:
-    """test for lowest numbers.
-    """
+    """test for lowest numbers."""
     assert is_prime(1) == False
 
 def test_prime_prime_number() -> None:
